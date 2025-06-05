@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color:white;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+#filter {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+#filter:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    border-color: #636363;
+}
+
+#filter::placeholder {
+    color: #999;
+}
